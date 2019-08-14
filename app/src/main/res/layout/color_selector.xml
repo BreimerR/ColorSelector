@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+            android:id="@+id/prevColor"
+            android:src="@drawable/ic_left"
+            android:layout_height="20dp"
+            android:layout_width="20dp"/>
+
+    <View
+            android:id="@+id/selected_color"
+            android:layout_height="20dp"
+            android:layout_width="20dp"/>
+
+    <ImageView
+            android:id="@+id/nextColor"
+            android:src="@drawable/ic_right"
+            android:layout_height="20dp"
+            android:layout_width="20dp"/>
+    <CheckBox
+            android:id="@+id/state"
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"/>
+
+    <TextView
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/label"
+            android:text="@string/enabled"/>
+</merge>
